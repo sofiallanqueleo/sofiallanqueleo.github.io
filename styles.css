@@ -1,11 +1,31 @@
 body {
- font-family:Arial,Helvetica,sans-serif;
- background-color: #333333;
+    font-family:Arial,Helvetica,sans-serif;
+    background-color: #333333;
  }
+
  header {
- width:80%;
- background-color:black;
- color:white;
- margin-right: auto;
- margin-left: auto;
+    width:80%;
+     background-color:black;
+     color:white;
+     margin-right: auto;
+    margin-left: auto;
  }
+
+ section {
+    width:80%;
+    background-color:white;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: black;
+    border-style:solid;
+    border-width:5px;
+ }
+
+nav ul{
+   list-style-type: none;
+   background-color: #333;
+   padding: 0; 
+}
+
+nav ul li
+ 
