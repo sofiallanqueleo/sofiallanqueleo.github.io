@@ -1,16 +1,15 @@
-/* --- Fondo general --- */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f8f8ff; /* fondo muy suave */
+  background-color: #f8f8ff; 
   color: #333;
   margin: 0;
   padding: 0;
 }
 
-/* --- Encabezado --- */
 header {
   width: 80%;
-  background-color: #f4eaff; /* violeta pastel */
+  background-color: #f4eaff; 
   color: #333;
   margin: 30px auto;
   padding: 20px;
@@ -19,7 +18,6 @@ header {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Navegación --- */
 nav ul {
   list-style-type: none;
   background-color: #e0d4ff;
@@ -44,7 +42,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* --- Sección principal --- */
 section {
   width: 80%;
   background-color: #fff;
@@ -55,7 +52,6 @@ section {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Imagen --- */
 img {
   display: block;
   margin: 20px auto;
@@ -63,7 +59,6 @@ img {
   border-radius: 10px;
 }
 
-/* --- Pie de página --- */
 footer {
   text-align: center;
   color: #666;
@@ -73,6 +68,7 @@ footer {
 
 
  
+
 
 
 
