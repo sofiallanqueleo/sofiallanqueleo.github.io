@@ -1,43 +1,37 @@
+/* --- Fondo general --- */
 body {
-    font-family:Arial,Helvetica,sans-serif;
-    background-color: #f9f9fb;
-    color: #333;
-    margin: 0;
-    padding: 0;
- }
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8ff; /* fondo muy suave */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
- header {
-    width:80%;
-     background-color: #e6e0ff;
-     color: #333;
-     margin-right: 20px auto;
-     padding: 20px;
-     tex-align: center
-     border-radius: 10px;
-     box- shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
- }
+/* --- Encabezado --- */
+header {
+  width: 80%;
+  background-color: #f4eaff; /* violeta pastel */
+  color: #333;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
 
- section {
-    width:80%;
-    background-color:white;
-    margin-right: auto;
-    margin-left: auto;
-    border-color: black;
-    border-style:solid;
-    border-width:5px;
- }
-
-nav ul{
-   list-style-type: none;
-   background-color: #d1c4ff;
-   padding: 10px; 
-   text-align: center;
-   border-radius: 10px;
+/* --- Navegación --- */
+nav ul {
+  list-style-type: none;
+  background-color: #e0d4ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px auto 0 auto;
+  width: fit-content;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 0 15px;
+  margin: 0 15px;
 }
 
 nav ul li a {
@@ -50,23 +44,26 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* --- Sección principal --- */
 section {
   width: 80%;
-  background-color: white;
+  background-color: #fff;
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-    
-img {
-  display: block;
-  margin: 20px auto; 
-  border-radius: 10px;
-  width: 250px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* --- Imagen --- */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* --- Pie de página --- */
 footer {
   text-align: center;
   color: #666;
@@ -76,6 +73,7 @@ footer {
 
 
  
+
 
 
 
