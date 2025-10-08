@@ -22,7 +22,7 @@
   <input type="tel" id="telefono" name="telefono" placeholder="ej: 299-20123644"><br><br>
   
   <label for="edad">Edad:</label>
-  <input type="number" id="edad" min="0" max="120"><br><br>
+  <input type="number" id="edad" min="16" max="120"><br><br>
   
   <label for="direccion">Direccion:</label>
   <textarea id="direccion" name="direccion" rows="2" cols="30"></textarea><br><br>
@@ -54,6 +54,26 @@
     <option value="San Luis">
     <option value="Chubut">
    </datalist><br><br>
+  
+  <label for="codigo_postal">Código postal:</label>
+  <input type="text" id="codigo_postal" name="codigo_postal" pattern=[A-Z][0-9][4][A-Z]{3}" placeholder="ej:123abcd"><br><br>
+
+  <p>método preferido de contacto:</P>
+ <input type="radio" id="HTML" name="metodo_preferido_de_contacto" value="correo electrónico">
+ <label for="correo_electronico">correo electrónico</label>
+
+  <input type="radio" id="html" name="metodo_preferido_de_contacto"  value="correo postal">
+  <label for="correo_electronico">correo postal</label>
+
+  <input type="radio" id="html" name="metodo_preferido_de_contacto"  value="telefono">
+  <label for="correo_electronico">telefono</label>
+
+  
+  
+<input type="radio
+
+
+
 
   <input type="submit" value="enviar">
 </form>
