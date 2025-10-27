@@ -66,8 +66,25 @@ footer {
   padding: 20px;
 }
 
+.logo {
+  width: 80px;
+  vertical-align: middle;
+  margin-left: 15px;
+  animation: giroLogo 3s ease-in-out 1;
+  transform-style: preserve-3d;
+}
 
+@keyFrames girologo {
+  0% {
+     transform: rotateY(0deg)
+}
+100% {
+     transform: rotateY(360deg);
+}
+}
+  
  
+
 
 
 
