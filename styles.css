@@ -8,12 +8,15 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   width: 80%;
   background-color: #f4eaff; 
   color: #333;
   margin: 30px auto;
   padding: 20px;
-  text-align: center;
   border-radius: 15px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
@@ -90,6 +93,7 @@ footer {
 }
   
  
+
 
 
 
