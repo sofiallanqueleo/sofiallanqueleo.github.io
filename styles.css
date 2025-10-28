@@ -69,7 +69,7 @@ footer {
 .logo {
   display: inline-block;
   width: 80px;
-  heigth: auto;
+  height: auto;
   vertical-align: middle;
   margin-left: 15px;
   animation: giroLogo 3s ease-in-out 1;
@@ -90,6 +90,7 @@ footer {
 }
   
  
+
 
 
 
