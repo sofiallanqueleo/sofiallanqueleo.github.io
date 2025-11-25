@@ -1,0 +1,77 @@
+
+ 
+/* Fuente más linda */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+/* Título */
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Tarjeta */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Pregunta */
+#pregunta {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Botones */
+button {
+  margin: 10px;
+  padding: 12px 22px;
+  border: none;
+  background: #ffffff;
+  color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform .2s, background .2s;
+}
+
+/* Hover */
+button:hover {
+  transform: scale(1.07);
+  background: #ddd;
+}
+
+/* Botón siguiente */
+#btn-siguiente {
+  background: #ffde59;
+  margin-top: 20px;
+}
+
+#btn-siguiente:hover {
+  background: #ffd000;
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+
